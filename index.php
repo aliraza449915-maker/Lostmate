@@ -1,0 +1,1 @@
+<?php require 'config.php'; if(is_logged()) header('Location: user_home.php'); else header('Location: login.php'); exit; ?>
